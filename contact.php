@@ -50,7 +50,9 @@ $error="Something went wrong. Please try again";
     .navbar-toggler {
         z-index: 1;
     }
-    
+    body{
+        background-color: #facaca;
+    }
     @media (max-width: 576px) {
         nav > .container {
             width: 100%;

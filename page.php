@@ -30,6 +30,9 @@ include('includes/config.php');
     .navbar-toggler {
         z-index: 1;
     }
+    body{
+        background-color: #facaca;
+    }
     
     @media (max-width: 576px) {
         nav > .container {

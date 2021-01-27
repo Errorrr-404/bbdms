@@ -6,17 +6,21 @@ include('includes/config.php');
 <html lang="en">
 
 <head>
-
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>BloodBank & Donor Management System</title>
+    <title>Blood Donation Management System</title>
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/modern-business.css" rel="stylesheet">
     <style>
+    body{
+        background-color: #facaca;
+    }
+    
     .navbar-toggler {
         z-index: 1;
     }
@@ -44,7 +48,7 @@ include('includes/config.php');
     <!-- Page Content -->
     <div class="container">
 
-        <h1 class="my-4">Welcome to BloodBank & Donor Management System</h1>
+        <h1 class="my-4">Welcome to Blood Donation Management System</h1>
 
         <!-- Marketing Icons Section -->
         <div class="row">
@@ -52,27 +56,27 @@ include('includes/config.php');
                 <div class="card">
                     <h4 class="card-header">The need for Blood Donation</h4>
                    
-                        <p class="card-text" style="padding-left:2%">The reason to donate is simple…it helps save lives. In fact, every two seconds of every day, someone needs blood. Since blood cannot be manufactured outside the body and has a limited shelf life, the supply must constantly be replenished by generous blood donors. </p>
+                        <p class="card-text" style="padding-left:2%; background-color:#e38a8a;"><b>The reason to donate is simple…it helps save lives. In fact, every two seconds of every day, someone needs blood. Since blood cannot be manufactured outside the body and has a limited shelf life, the supply must constantly be replenished by generous blood donors.</b> </p>
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
                 <div class="card">
                     <h4 class="card-header">Blood Donation Tips</h4>
                    
-                        <p class="card-text" style="padding-left:2%">Before your blood donation:
+                        <p class="card-text" style="padding-left:2%; background-color:#e38a8a"><b>Before your blood donation:
 Get plenty of sleep the night before you plan to donate.
 Eat a healthy meal before your donation.
 Avoid fatty foods, such as hamburgers, french fries or ice cream before donating. ...
-Drink an extra 16 ounces (473 milliliters) of water and other fluids before the donation. </p>
+Drink an extra 16 ounces (473 milliliters) of water and other fluids before the donation. </b></p>
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
                 <div class="card">
                     <h4 class="card-header">Who you could Help?</h4>
                    
-                        <p class="card-text" style="padding-left:2%">Your blood saves lives. Your blood donation is an amazing gift to people who need it in an emergency or for on-going medical treatment. 
+                        <p class="card-text" style="padding-left:2%; background-color:#e38a8a;"><b>Your blood saves lives. Your blood donation is an amazing gift to people who need it in an emergency or for on-going medical treatment. 
 
-We need nearly 5,000 people to give blood every day to meet the needs of hospitals and patients. We specifically need new black donors to provide blood donations for black patients with sickle cell disease. They need life-saving blood from black donors, which provides the closest match to their own. Find out how donated blood is used. </p>
+We need nearly 5,000 people to give blood every day to meet the needs of hospitals and patients. We specifically need new black donors to provide blood donations for black patients with sickle cell disease.</b> </p>
                 </div>
             </div>
         </div>
